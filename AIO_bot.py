@@ -84,6 +84,6 @@ async def send_echo(message: Message):
 
 @dp.message()
 async def send_echo(message: Message):
-    await bot.send_message(message.chat.id, text='Передохни, пиццу откуси\n 🍕')
+    await bot.send_message(message.chat.id, text='🍕')
 
 dp.run_polling(bot, polling_timeout=50)
